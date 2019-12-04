@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>SudanUK</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+img.round{
+  border-radius: 50%;
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+</style>
+<body class="w3-light-grey">
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top w3-hide-small">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button"> SudanUK</a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+        <a href="#events" class="w3-bar-item w3-button">Events</a>
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#committee" class="w3-bar-item w3-button">Committee</a>
+      </div>
+    </div>
+      </div>
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-white w3-center w3-small">
+    <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important">Projects</a>
+    <a href="#events" class="w3-bar-item w3-button" style="width:25% !important">Events</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">About</a>
+    <a href="#committee" class="w3-bar-item w3-button" style="width:25% !important">Committee</a>
+  </div>
+</div>
+
+
+  <!-- Page content -->
+  <div class="w3-content w3-padding" style="max-width:1564px">
+
+    <!-- Upcoming Events Section -->
+    <div class="w3-container w3-padding-32" id="home">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Upcoming Events</h3>
+      <div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="https://i.ibb.co/GsnHMKV/sudanuk.jpg" alt="" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="https://i.ibb.co/02gPh9d/Whats-App-Image-2019-11-04-at-15-21-10.jpg" alt="" style="width:100%;">
+      </div>
+
+      <div class="item">
+        <img src="https://i.ibb.co/j39LJc8/Screen-Shot-2019-11-15-at-11-55-18.png" alt="" style="width:100%;">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+    </div>
+    <!-- Project Section -->
+    <div class="w3-container w3-padding-32" id="projects">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Shay AlMaghrib</div>
+          <a href="shay-al-maghrib.html">
+            <img src="https://i.ibb.co/zh2b7XR/Screen-Shot-2019-10-22-at-22-43-08.png" alt="Shay AlMaghrib" style="width:100%">
+          </a>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Youth Social Club</div>
+          <a href="youth-social-club.html">
+            <img src="https://i.ibb.co/L6bK0MR/Screen-Shot-2019-08-19-at-08-14-11.png" alt="youth social" style="width:100%">
+          </a>
+        </div>
+      </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Migrant Clinic</div>
+            <a href="migrant-clinic.html">
+              <img src="https://i.ibb.co/6ZVPxrX/Screen-Shot-2019-08-19-at-08-13-03.png" alt="Migrant Clinic" style="width:100%">
+            </a>
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">English Club</div>
+            <a href="english-club.html">
+              <img src="https://i.ibb.co/fM8YrHK/Screen-Shot-2019-08-19-at-08-13-56.png" alt="English Club" style="width:100%">
+            </a>
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Protests in London</div>
+            <a href="protests-in-london.html">
+              <img src="https://i.ibb.co/FDCG2PK/DSC0078.jpg" alt="Protests" style="width:100%">
+            </a>
+          </div>
+        </div>
+      </div></div>
+
+      <!-- Events Section -->
+      <div class="w3-container w3-padding-32" id="events">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Events</h3>
+      <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Roots of Africa</div>
+            <a href="roots-of-africa.html">
+              <img src="https://i.ibb.co/rxHMyyR/DSC0627.jpg" alt="Roots of Africa" style="width:100%">
+            </a>
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Knowledge Is Power</div>
+            <a href="knowledge-is-power.html">
+              <img src="https://i.ibb.co/GRsMLWf/DSC0519-2.jpg" alt="Knowledge Is Power" style="width:100%">
+            </a>
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Kandaka & Shafata Night</div>
+            <a href="kandaka-and-shafata-night.html">
+              <img src="https://i.ibb.co/xCb5DQS/DSC0595.jpg" alt="Kandaka Night Pt2" style="width:100%">
+            </a>
+          </div>
+        </div>
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Charity Football Tournament</div>
+            <a href="football-tournament.html">
+              <img src="https://i.ibb.co/FX92n2W/DSC0224.jpg" alt="Football" style="width:100%">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Kandaka Night</div>
+            <a href="kandaka-night.html">
+              <img src="https://i.ibb.co/rHMwtVL/Screen-Shot-2019-10-22-at-23-27-56.png" alt="Kandaka Night" style="width:100%">
+            </a>
+          </div>
+        </div>
+          <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+              <div class="w3-display-topleft w3-black w3-padding">Salamat Festival</div>
+              <a href="salamat-festival.html">
+                <img src="https://i.ibb.co/s1fs445/DSC0151.jpg" alt="Salamat" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+              <div class="w3-display-topleft w3-black w3-padding">Vigil for Sudan</div>
+              <a href="vigil-for-sudan.html">
+                <img src="https://i.ibb.co/YL0HzWL/DSC0032.jpg" alt="Vigil" style="width:100%">
+              </a>
+            </div>
+          </div>
+          <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-display-container">
+              <div class="w3-display-topleft w3-black w3-padding">Uncensored Conference</div>
+              <a href="uncensored-conference.html">
+                <img src="https://i.ibb.co/qRzM7NG/DSC0004.jpg" alt="House" style="width:100%">
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w3-row-padding">
+        <div class="w3-col l3 m6 w3-margin-bottom">
+          <div class="w3-display-container">
+            <div class="w3-display-topleft w3-black w3-padding">Diaspora: Voice of the revolution</div>
+            <a href="diaspora-event.html">
+              <img src="https://i.ibb.co/RB05xbw/DSC0164.jpg" alt="Diaspora" style="width:100%">
+            </a>
+          </div>
+      </div>
+        </div>
+      </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+          <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+          <p>
+                  SudanUK is an organisation with many ideas, but one of our common goals is to stand with Sudan and <b>support</b> its people.
+                  <br/>
+                  <br/>
+                  <i>How are we different to any other Sudanese organisation, you may ask?</i>
+                  <br/>
+                  Simple -  we are unique in the sense that our company is one that is <b>youth</b> run, with a strong assisting hand from experienced adults. Our efforts and suggestions are combined together to produce multiple fruitful results. This organisation encompasses fragments that deal with many aspects of Sudanese issues which are usually ignored. The vision is to tackle these issues to ensure that the revolution does not just stop at dismantling the regime and entering a civilian led country, but also revolutionising the minds of all the citizens and the diaspora to build a new Sudan that has a space for all.
+                <br/>
+                <br/>
+                  Some of these issues will be redefining public perception on what counts as ‘credible’ studies or a valuable line of work. Remembering the importance of <b>creativity</b> in our history and how it is needed in a new society. We also want to address the issues of Language by setting up a scheme whereby we can help better the teaching of English language. Especially in rural areas of Sudan, but also focusing on learning and preserving indigenous languages of Sudan that are facing extinction.
+                  <br/>
+                  <br/>
+                  Another immediate problem we want to address is the influx of <b>Migrants</b> who need support in many different avenues but also need reintegration into the Sudanese Diaspora Community in the UK.
+                  <br/>
+                  <br/>
+                  These are just a few of the many issues that we will address, but this is not a task we are undertaking alone. We have many different incredibly youth groups doing incredible work and the main idea of the Youth Council is to unite these groups to ensure they are all working under the same umbrella without neglecting their valuable voices.
+                  </p>
+                  <br/>
+        </div>
+
+
+      <!-- Committee Section -->
+      <div class="w3-container w3-padding-32" id="committee">
+        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">SudanUK Youth Committee</h3>
+
+      <div class="w3-row-padding ">
+        <div class="w3-col l3 m5 w3-margin-bottom">
+          <img class="round" src="https://i.ibb.co/CQRM9LK/mohamed.png" alt="Mohamed" style="width:100%">
+          <h3>Mohamed Takroni</h3>
+          <p class="w3-opacity">Chair</p>
+          <p> As chair - my main aim is bringing together the various youth groups in London, thus creating a presence that will heighten awareness levels of issues occurring in Sudan. This is my duty towards my fellow brothers and sisters.</p>
+        </div>
+
+        <div class="w3-col l3 m5 w3-margin-bottom">
+          <img class="round" src="https://i.ibb.co/6ZSLXyq/Screen-Shot-2019-10-14-at-20-48-31.png" alt="Maha" style="width:100%">
+          <h3>Maha Abdelgadir</h3>
+          <p class="w3-opacity">Secretary</p>
+          <p>Organisation is key. My role will be to make sure that everything with regards to the committee is organised and documented so that we can ensure great professionalism.</p>
+        </div>
+
+        <div class="w3-col l3 m5 w3-margin-bottom">
+          <img class="round" src="https://i.ibb.co/SKDZBkG/hayfa.png" alt="Hayfa" style="width:100%">
+          <h3>Hayfaa Abdalla</h3>
+          <p class="w3-opacity">Financial Officer</p>
+          <p>I applied for this role to use this as an opportunity to use my Accounting background to help my homeland, as well as a chance for me lead a financial project outside of my everyday job. So anything £ related I am the woman you need - and my aim is to keep all finances clear and transparent. No kezan thieves here.</p>
+        </div>
+
+        <div class="w3-col l3 m5 w3-margin-bottom">
+          <img class="round" src="https://i.ibb.co/crgT10f/Screen-Shot-2019-10-26-at-10-00-44.png" alt="Samar" style="width:100%">
+          <h3>Samar Sidiki</h3>
+          <p class="w3-opacity">Visual Artist & Creative Director</p>
+          <p>I want to use creativity as a tool to counteract negativity and instead spread positive changes in the community through mediums such as art healing workshops, craft making, dance and folklore expression.</p>
+        </div>
+      </div>
+
+     <div class="w3-row-padding ">
+        <div class="w3-col l3 m5 w3-margin-bottom">
+          <img class="round" src="https://i.ibb.co/86XzsG9/01ea1fe4-71ba-4be5-ae54-b33670207adb.jpg" alt="Rowida" style="width:100%">
+          <h3>Rowida Satti</h3>
+          <p class="w3-opacity">Migrants Officer</p>
+          <p>My goal is to bridge the gap to connect and support migrants with all their needs - but mainly reintegrating them back into our society. Creating a social space for the youth community as a whole will allow the two groups to come together and finally unite.</p>
+        </div>
+
+        <div class="w3-col l3 m5 w3-margin-bottom">
+          <img class="round" src="https://i.ibb.co/t42WKm9/Screen-Shot-2019-10-14-at-20-43-07.png" alt="Negla" style="width:100%">
+          <h3>Negla Abdalla</h3>
+          <p class="w3-opacity">Social Media Manager</p>
+          <p>The power of social media is undeniable. We turned social media blueforSudan at a simple tap of a button. My goal is simply to break the internet over and over and over again. With my background in digital marketing and the manpower now rebranded KANDAKA POWER of the Sudanese community I believe we can achieve this.</p>
+        </div>
+
+        <div class="w3-col l3 m5 w3-margin-bottom">
+          <img class="round" src="https://i.ibb.co/7zgPV10/984b529d-0c2b-4b4f-8239-8f0dacccac70.jpg" alt="Yousr" style="width:100%">
+          <h3>Yousr Ahmed</h3>
+          <p class="w3-opacity">Disability & Dyslexia Support</p>
+          <p>This role holds  great personal meaning to me. For long I have watched how this community has been neglected and ignored and I feel that it is crucial that we build unity and a spaces that welcome all. One of the ways in which I want to bridge that gap is by offering sign language workshops. This is crucial for me because communication is key to any great relationship.</p>
+        </div>
+
+        <div class="w3-col l3 m5 w3-margin-bottom">
+          <img class="round" src="https://i.ibb.co/zf0wJ2H/91c3815f-6389-4aed-ab50-20029ff503dd.jpg" alt="Hadeal" style="width:100%">
+          <h3>Hadeal Abdelatti</h3>
+          <p class="w3-opacity">Political Advisor</p>
+          <p>Politics is one of the fundamental powers that exist in our society and our world. I aim to use my political knowledge and experience which I have gained through working with organisations like Citizens UK and the Labour Party to help inform and guide members of the Sudanese community politically.</p>
+        </div>
+  </div>
+
+  <div class="w3-row-padding ">
+      <div class="w3-col l3 m5 w3-margin-bottom">
+        <img class="round" src="https://i.ibb.co/0ZtLmxx/cde105e5-bffa-40f9-b265-d4cf58c6853f.jpg" alt="Leemya" style="width:100%">
+        <h3>Leemya Abdalla</h3>
+        <p class="w3-opacity">Marketing Officer</p>
+        <p>My passion has always been Marketing. I am keen to use the skill set, experience and expertise that I have learnt from my degree, internships and employment to benefit the Sudanese community. I will be using traditional marketing strategies - as well as fresh, new approaches.</p>
+      </div>
+
+      <div class="w3-col l3 m5 w3-margin-bottom">
+        <img class="round" src="https://i.ibb.co/xDV8hkD/babb4d97-ec58-4a9a-8aaa-a7826dc25669.jpg" alt="Isar" style="width:100%">
+        <h3>Isar Alkair</h3>
+        <p class="w3-opacity">Healthcare Coordinator</p>
+        <p>Hi! As Healthcare Coordinator I will be working closely with Sudan to implement a patient first oriented Health Scheme! The vision is awareness and access for all!</p>
+      </div>
+
+      <div class="w3-col l3 m5 w3-margin-bottom">
+        <img class="round" src="https://i.ibb.co/PhbCvn4/shahd.png" alt="Shahd" style="width:100%">
+        <h3>Shahd Ahmed</h3>
+        <p class="w3-opacity">Gender & Race Equality Officer</p>
+        <p>I’m passionate about equal rights for all. None of us are free until we are all free! My role is to make sure we are as inclusive as possible and create initiatives to continue healthy dialogue. Come to Shay AlMaghrib! </p>
+      </div>
+
+      <div class="w3-col l3 m5 w3-margin-bottom">
+        <img class="round" src="https://i.ibb.co/6HywHpg/Screen-Shot-2019-10-26-at-09-56-05.png" alt="Nazik" style="width:100%">
+        <h3>Nazik Sharfadin</h3>
+        <p class="w3-opacity">Student Bodies Liason</p>
+        <p>As a long time Student Acvitist I am a firm believer in the power of activism within educational spheres. My goal is to first get rid of the stigma attached with activism and then further empower Students to create and use platforms available for them in the educational sphere to amplify their voices.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+    <!-- Footer -->
+<footer class="w3-center w3-white w3-padding-16">
+  <p align="center"><a href="https://www.facebook.com/Sudanuk_-112774156737439/" class="fa fa-facebook"> </a>
+  <a href="https://twitter.com/sudanuk1" class="fa fa-twitter"></a>
+  <a href="https://instagram.com/sudanuk_" class="fa fa-instagram"></a></p>
+  <p> Hand coded by <a href="https://www.linkedin.com/in/sarah-elderderi/">Sarah Elderderi </a></p>
+</footer>
+
+  </body>
+</html>
